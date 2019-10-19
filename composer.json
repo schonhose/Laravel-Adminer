@@ -1,7 +1,7 @@
 {
     "name": "miroc/laravel-adminer",
-    "description": "Adminer (by Jakub Vrana) wrapper for Laravel 5",
-    "keywords": ["adminer", "laravel5", "database", "management"],
+    "description": "Adminer (by Jakub Vrana) wrapper for Laravel 6",
+    "keywords": ["adminer", "laravel6", "database", "management"],
     "license": "MIT",
     "authors": [
         {
@@ -10,8 +10,10 @@
         }
     ],
     "require": {
-        "php": ">=5.4.0",
-        "illuminate/support": "5.*"
+        "php": "^7.2",
+        "illuminate/support": "^6.0",
+        "illuminate/config": "^6.0",
+        "illuminate/database": "^6.0",
     },
     "autoload": {
         "psr-4": {
